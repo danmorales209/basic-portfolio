@@ -1,0 +1,10 @@
+/*Common style for the Assignment 1 portfolio page*/
+
+* {
+    border: solid black 1px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
