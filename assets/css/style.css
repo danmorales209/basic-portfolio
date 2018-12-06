@@ -8,6 +8,37 @@
     margin: 0 auto;
     width: 960px;
 }
+.clear {
+    position: relative;
+}
+
+header {
+    display:block;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+nav {
+    display:block;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+nav ul, nav li , nav a{
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    /*line-height: auto;*/
+    
+}
 
 footer {
     border-top: solid 5px #4aaaa5;
