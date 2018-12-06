@@ -8,3 +8,7 @@
     margin: 0 auto;
     width: 960px;
 }
+
+footer {
+    border-top: solid 5px #4aaaa5;
+}
