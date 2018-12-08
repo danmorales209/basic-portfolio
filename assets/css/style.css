@@ -14,7 +14,7 @@ body {
 }
 
 #wrapper {
-    margin: 5px auto;
+    margin: 5px auto 100px auto;
     width: 960px;
     display: block;
 }
@@ -24,11 +24,11 @@ body {
     margin:0 auto;
     height: 15%;
     line-height: 4;
-    border-bottom: 3px 
 }
 .header-container {
     margin:0;
     background-color: #ffffff;
+    border-bottom: 3px solid #dddddd;
 
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .horizontal-line {
-    width: 95%;
+    width: 100%;
     margin: 0 auto 2% auto;;
     height: 3px;
     background-color: #dddddd;
@@ -49,24 +49,6 @@ body {
     border: 1px solid #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 0 24px 24px 24px;
-}
-
-#main-container h1 {
-    line-height: 4;
-    font-size: 24px;
-    color: #4aaaa5;
-    font-weight: bold;
-}
-
-#main-container p {
-    line-height: 1.5;
-    margin: 10px;
-
-}
-
-#main-container img {
-    float: left;
-    margin-right: 10px;
 }
 
 header {
@@ -89,7 +71,7 @@ nav {
     float: right;
     width: 40%;
     height: 100%;
-    margin-top: 2%;
+    margin: 10px; auto;
     padding: 0 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
@@ -99,12 +81,13 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
 
 }
 
 nav ul li {
-    float: left;
-    width: 31%;
+    float: right;
+    width: 32%;
     margin: 0;
     text-align: center;
 }
@@ -126,6 +109,15 @@ nav ul li a {
 
 }
 
+nav ul li a:hover {
+    text-shadow: 2px 2px black;
+}
+
+nav ul li a:active {
+    background-color: #666666;
+    color: white;
+}
+
 nav ul, nav li , nav ul li a{
     text-decoration: none;
 }
@@ -139,8 +131,133 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 10%;
+    height: 7.5%;
     line-height: 1.5;
     margin: auto;
+}
+
+footer p {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* End commen attributes*/
+
+#main-container h1 {
+    line-height: 4;
+    font-size: 24px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+#main-container p {
+    line-height: 1.5;
+    margin: 10px;
+
+}
+
+#main-container img {
+    float: left;
+    margin-right: 10px;
+}
+/* Contact*/
+#main-text {
+    line-height: 2;
+}
+
+input {
+    width: 100%;
+}
+
+#form-submit-button {
+    width: 15%;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 5px auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+/* portfolio*/
+
+.portfolio-box {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    float: left;
+    margin: 50px;
+    border: 2px solid #777777;
+}
+
+.portfolio-title-box {
+    margin-top: 70%;
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    height: 20%;
+}
+
+.portfolio-link {
+    display: block;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    font-size: 24px;
     
+}
+
+.box1 {
+    background-image: url("http://lorempixel.com/300/300");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    background-image: url("http://lorempixel.com/300/300");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background-image: url("http://lorempixel.com/300/300");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    background-image: url("http://lorempixel.com/300/300");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    background-image: url("http://lorempixel.com/300/300");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    background-image: url("http://lorempixel.com/300/300");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
 }
