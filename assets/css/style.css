@@ -1,44 +1,90 @@
 /*Common style for the Assignment 1 portfolio page*/
 
-* {
-    border: solid black 1px;
+html {
+    background-image: url("#");
 }
 
 #wrapper {
-    margin: 0 auto;
+    margin: 5px auto;
     width: 960px;
+    border: solid black 1px;
+    display: block;
 }
+
+#header-wrap {
+    width: 960px;
+    margin:0 auto 5px auto;
+    height: 15%;
+    line-height: 4;
+}
+
 .clear {
-    position: relative;
+    float : clear;
+    clear: both;
 }
 
 header {
-    display:block;
-    position: absolute;
-    left: 5%;
-    top: 5%;
+    display: inline-block;
+    float: left;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    color: white;
+    height: 100%;
+    width: auto;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 24px;
+    padding: 0 20px;
+    font-weight: bold;
+    
 }
 
 nav {
-    display:block;
-    position: absolute;
-    right: 5%;
-    top: 5%;
+    display: inline-block;
+    float: right;
+    width: 35%;
+    border: solid black 1px;
+    height: 100%;
+    margin-top: 2%;
+    padding: 0 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight:bold;
 }
 
-nav ul, nav li , nav a{
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    float: left;
+    width: 31%;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li:nth-of-type(2) {
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+}
+
+
+
+nav ul li a { 
+    display: block;
+    width: auto;
+    line-height: 4;
+    font-size: 18px;
+}
+
+nav ul, nav li , nav ul li a{
     text-decoration: none;
 }
 
-h1 {
-    background-color: #4aaaa5;
-    color: white;
-    height: 50px;
-    width: 200px;
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-    /*line-height: auto;*/
-    
-}
+
 
 footer {
     border-top: solid 5px #4aaaa5;
